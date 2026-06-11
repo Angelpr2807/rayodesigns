@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "¿Necesito experiencia previa en diseño?",
+    "answer": "No, nuestros cursos están diseñados tanto para principiantes como para profesionales. Tenemos cursos de todos los niveles, así que puedes comenzar desde donde te sientas cómodo."
+  },
+  {
+    "id": 2,
+    "question": "¿Cuánto tiempo tengo acceso al curso?",
+    "answer": "Una vez que compres un curso, tienes acceso de por vida. Puedes revisar el contenido tantas veces como necesites, incluso cuando se agregue contenido nuevo."
+  },
+  {
+    "id": 3,
+    "question": "¿Hay certificado al completar el curso?",
+    "answer": "No, nuestros cursos están diseñados tanto para principiantes como para profesionales. Tenemos cursos de todos los niveles, así que puedes comenzar desde donde te sientas cómodo."
+  },
+  {
+    "id": 4,
+    "question": "¿Qué software necesito?",
+    "answer": "Depende del curso. Algunos utilizan software de Adobe (Photoshop, Illustrator), otros usan Figma o Blender. Se especifica claramente en la descripción de cada curso."
+  },
+  {
+    "id": 5,
+    "question": "¿Hay soporte si tengo dudas?",
+    "answer": "Sí, ofrecemos soporte por email durante nuestro horario de atención. También tenemos comunidades de estudiantes donde puedes obtener ayuda de otros compañeros."
+  },
+  {
+    "id": 6,
+    "question": "¿Hay descuentos para compras múltiples?",
+    "answer": "Ocasionalmente ofrecemos promociones especiales. Suscríbete a nuestro newsletter para estar informado sobre las últimas ofertas y descuentos."
+  },
+  {
+    "id": 7,
+    "question": "¿Puedo descargar los materiales del curso?",
+    "answer": "Sí, la mayoría de nuestros cursos incluyen recursos descargables como plantillas, archivos de proyecto y materiales complementarios."
+  },
+  {
+    "id": 8,
+    "question": "¿Hay garantía de satisfacción?",
+    "answer": "Ofrecemos una garantía de 30 días. Si no estás satisfecho con el curso, te reembolsamos el 100% del dinero sin hacer preguntas."
+  }
+]

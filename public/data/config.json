@@ -1,0 +1,36 @@
+{
+  "platformName": "DesignHub",
+  "platformDescription": "La mejor plataforma para aprender diseño",
+  "instructor": {
+    "name": "Anthony Paulo Perez",
+    "title": "Diseñador Gráfico Senior",
+    "bio": "Diseñador gráfico con más de 8 años de experiencia en la industria creativa. Especializado en branding, diseño digital y animación. Apasionado por compartir conocimiento y ayudar a nuevos diseñadores a desarrollar sus habilidades.",
+    "image": "/images/instructor.png"
+  },
+  "contact": {
+    "hours": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+    "timezone": "GMT-5",
+    "social": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com",
+        "icon": "facebook"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com",
+        "icon": "instagram"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://tiktok.com",
+        "icon": "tikTok"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://linkedin.com",
+        "icon": "linkedin"
+      }
+    ]
+  }
+}

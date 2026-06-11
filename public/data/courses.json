@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Fotomontaje y retoque creativo 8",
+    "category": "graphic-design",
+    "description": "Aprende fotomontaje y retoque creativo desde cero. Perfecto para principiantes que quieren iniciar su carrera en el diseño.",
+    "image": "/images/courses/course-1.png",
+    "price": 29.99,
+    "duration": "4 semanas",
+    "level": "Principiante",
+    "students": 1240,
+    "rating": 4.8,
+    "whatYouLearn": [
+      "Fundamentos del diseño gráfico profesional",
+      "Teoría del color y su aplicación práctica",
+      "Principios de composición y balance visual",
+      "Tipografía básica y jerarquía textual"
+    ],
+    "curriculum": [
+      {
+        "module": "Introducción al Diseño",
+        "classes": [
+          { "title": "¿Qué es el diseño gráfico?", "duration": "15 min" },
+          { "title": "El rol del diseñador hoy", "duration": "12 min" },
+          { "title": "Herramientas esenciales", "duration": "18 min" }
+        ]
+      },
+      {
+        "module": "Teoría del Color",
+        "classes": [
+          { "title": "Círculo cromático", "duration": "20 min" },
+          { "title": "Psicología del color", "duration": "25 min" },
+          { "title": "Paletas armónicas", "duration": "22 min" }
+        ]
+      },
+      {
+        "module": "Composición",
+        "classes": [
+          { "title": "Regla de los tercios", "duration": "15 min" },
+          { "title": "Equilibrio y peso visual", "duration": "20 min" },
+          { "title": "Espacio negativo", "duration": "18 min" }
+        ]
+      }
+    ]
+  }
+]

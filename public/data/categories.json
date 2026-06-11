@@ -1,0 +1,42 @@
+[
+  {
+    "id": "graphic-design",
+    "name": "Diseño Gráfico",
+    "color": "#FF6B6B"
+  },
+  {
+    "id": "web-design",
+    "name": "Diseño Web",
+    "color": "#4ECDC4"
+  },
+  {
+    "id": "ui-ux",
+    "name": "UI/UX",
+    "color": "#95E1D3"
+  },
+  {
+    "id": "branding",
+    "name": "Branding",
+    "color": "#F38181"
+  },
+  {
+    "id": "3d-design",
+    "name": "Diseño 3D",
+    "color": "#AA96DA"
+  },
+  {
+    "id": "motion",
+    "name": "Animación",
+    "color": "#FCBAD3"
+  },
+  {
+    "id": "photography",
+    "name": "Fotografía",
+    "color": "#A8D8EA"
+  },
+  {
+    "id": "illustration",
+    "name": "Ilustración",
+    "color": "#FFE66D"
+  }
+]

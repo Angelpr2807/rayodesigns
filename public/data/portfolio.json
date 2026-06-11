@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Maverick Studio — Identidad Visual",
+    "description": "Branding completo para estudio creativo especializado en motion graphics",
+    "fullDescription": "Diseñé la identidad visual completa para Maverick Studio, un estudio creativo enfocado en motion graphics y animación. El proyecto incluyó diseño de logotipo, paleta cromática, tipografía corporativa, papelería y guía de marca. El resultado es una identidad audaz y versátil que refleja la energía creativa del estudio.",
+    "image": "/images/portfolio/project-1.png",
+    "tags": ["Branding", "Logo", "Guía de Marca"],
+    "category": "branding",
+    "url": "https://behance.net",
+    "slug": "maverick-studio-identidad-visual"
+  },
+  {
+    "id": 2,
+    "title": "EcoPack — Diseño de Empaques",
+    "description": "Línea de empaques sostenibles para marca de productos orgánicos",
+    "fullDescription": "Creación de la línea de empaques para EcoPack, una marca de productos orgánicos y sostenibles. El diseño se enfocó en transmitir los valores ecológicos de la marca utilizando materiales reciclados, ilustraciones botánicas y una paleta de colores tierra. Cada empaque cuenta una historia visual que conecta al consumidor con la naturaleza.",
+    "image": "/images/portfolio/project-2.png",
+    "tags": ["Packaging", "Ilustración", "Sostenibilidad"],
+    "category": "graphic-design",
+    "url": "https://behance.net",
+    "slug": "ecopack-diseno-empaques"
+  },
+  {
+    "id": 3,
+    "title": "Flow Dashboard — UI/UX",
+    "description": "Interfaz de productividad para equipo remoto con enfoque en simplicidad",
+    "fullDescription": "Diseño de interfaz y experiencia de usuario para Flow, un dashboard de productividad orientado a equipos remotos. El proyecto incluyó investigación de usuarios, wireframes, prototipos interactivos y diseño visual. La prioridad fue crear una experiencia intuitiva que redujera la fricción en la gestión de tareas diarias.",
+    "image": "/images/portfolio/project-3.png",
+    "tags": ["UI/UX", "Figma", "Prototipado"],
+    "category": "ui-ux",
+    "url": "https://dribbble.com",
+    "slug": "flow-dashboard-uiux"
+  },
+  {
+    "id": 4,
+    "title": "Animación Explicativa — TechFlow",
+    "description": "Video animado de 60 segundos explicando SaaS de automatización",
+    "fullDescription": "Producción completa de un video animado explicativo para TechFlow, un SaaS de automatización empresarial. Desde el storyboard hasta la animación final, el video comunica de forma clara y atractiva cómo la plataforma resuelve problemas complejos de flujo de trabajo en menos de un minuto.",
+    "image": "/images/portfolio/project-4.png",
+    "tags": ["Motion Graphics", "Animación", "Storyboard"],
+    "category": "motion",
+    "url": "https://youtube.com",
+    "slug": "animacion-explicativa-techflow"
+  },
+  {
+    "id": 5,
+    "title": "Ilustración Editorial — Revista Crea",
+    "description": "Serie de ilustraciones para artículos de creatividad e innovación",
+    "fullDescription": "Serie de ilustraciones editoriales para la Revista Crea, publicadas en su edición trimestral sobre innovación y creatividad. Cada ilustración acompaña un artículo diferente, utilizando un estilo conceptual y minimalista que invita a la reflexión y complementa el contenido escrito.",
+    "image": "/images/portfolio/project-5.png",
+    "tags": ["Ilustración", "Editorial", "Arte Conceptual"],
+    "category": "illustration",
+    "url": "https://behance.net",
+    "slug": "ilustracion-editorial-revista-crea"
+  },
+  {
+    "id": 6,
+    "title": "Render 3D — Colección Nórdica",
+    "description": "Visualización fotorrealista de muebles para catálogo de diseño escandinavo",
+    "fullDescription": "Visualización 3D fotorrealista para la Colección Nórdica de Møbler, un fabricante de muebles de diseño escandinavo. Cada pieza fue modelada y renderizada con atención al detalle de materiales, iluminación y texturas, logrando imágenes que podrían confundirse con fotografía real de producto.",
+    "image": "/images/portfolio/project-6.png",
+    "tags": ["Render 3D", "Blender", "Fotorrealismo"],
+    "category": "3d-design",
+    "url": "https://artstation.com",
+    "slug": "render-3d-coleccion-nordica"
+  },
+  {
+    "id": 7,
+    "title": "Rediseño Web — GreenLeaf",
+    "description": "Sitio web responsivo para ONG ambiental con enfoque en donaciones",
+    "fullDescription": "Rediseño completo del sitio web de GreenLeaf, una ONG dedicada a la reforestación. El proyecto incluyó arquitectura de información, diseño visual responsivo y optimización de la experiencia de donación. El nuevo sitio incrementó las conversiones de donaciones en un 40% durante los primeros tres meses.",
+    "image": "/images/portfolio/project-7.png",
+    "tags": ["Web Design", "Responsive", "UX"],
+    "category": "web-design",
+    "url": "https://greenleaf.example.com",
+    "slug": "rediseno-web-greenleaf"
+  },
+  {
+    "id": 8,
+    "title": "Fotografía de Producto — Artesa",
+    "description": "Serie fotográfica para marca de artesanías cerámicas hechas a mano",
+    "fullDescription": "Producción fotográfica completa para Artesa, una marca de cerámicas artesanales. La serie incluye fotos de producto, lifestyle y detalles de proceso, todas con iluminación natural y un estilo cálido que resalta la textura y autenticidad de cada pieza hecha a mano.",
+    "image": "/images/portfolio/project-8.png",
+    "tags": ["Fotografía", "Producto", "Edición"],
+    "category": "photography",
+    "url": "https://instagram.com",
+    "slug": "fotografia-producto-artesa"
+  }
+]

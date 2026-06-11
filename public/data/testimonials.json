@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "María García",
+    "role": "Diseñadora Gráfica",
+    "text": "Los cursos de DesignHub me ayudaron a mejorar significativamente mis habilidades. El enfoque práctico y las explicaciones claras hacen toda la diferencia.",
+    "rating": 5,
+    "image": "/images/testimonials/student-1.png"
+  },
+  {
+    "id": 2,
+    "author": "Carlos Rodríguez",
+    "role": "Emprendedor",
+    "text": "Excelente plataforma. El contenido es actualizado y muy relevante para el mercado actual. Recomiendo a todos mis colegas.",
+    "rating": 5,
+    "image": "/images/testimonials/student-2.png"
+  },
+  {
+    "id": 3,
+    "author": "Laura Martínez",
+    "role": "Estudiante de Diseño",
+    "text": "Comenzé sin experiencia y ahora tengo un portafolio profesional. Los cursos son amenos, claros y muy bien estructurados.",
+    "rating": 5,
+    "image": "/images/testimonials/student-3.png"
+  },
+  {
+    "id": 4,
+    "author": "Juan Pérez",
+    "role": "Freelancer",
+    "text": "Gracias a DesignHub aumenté mis ingresos como freelancer. Los conocimientos adquiridos son inmediatamente aplicables.",
+    "rating": 4.5,
+    "image": "/images/testimonials/student-4.png"
+  },
+  {
+    "id": 5,
+    "author": "Sofia López",
+    "role": "Directora Creativa",
+    "text": "Una plataforma seria y profesional. El instructor realmente sabe de lo que habla y comparte su experiencia de forma generosa.",
+    "rating": 5,
+    "image": "/images/testimonials/student-5.png"
+  }
+]
