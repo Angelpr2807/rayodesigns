@@ -3,6 +3,7 @@
 @import 'shadcn/tailwind.css';
 
 @theme {
+  --font-sans: var(--font-space), sans-serif;
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
   --color-card: hsl(var(--card));
@@ -74,7 +75,9 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    background-image: radial-gradient(circle at 1px 1px, hsl(var(--primary) / 0.06) 1px, transparent 0);
+    background-size: 32px 32px;
   }
 
   ::-webkit-scrollbar {

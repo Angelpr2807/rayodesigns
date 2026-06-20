@@ -61,31 +61,30 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 -z-10">
+        <div className="absolue inset-0 z-0">
           <ImageWithFallback
-            src="/images/hero-bg.png"
+            src="/images/hero.png"
             alt="Hero Background"
             fill
-            className="object-cover"
+            className="object-cover object-top-right lg:object-center"
             priority
             fallbackType="generic"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
+          <div className="absolute inset-0 bg-black/0" />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 py-20 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
+        <div className="max-w-4xl z-2 mx-auto px-4 py-20 lg:py-32 text-center lg:text-left">
           <div className="space-y-6">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-black leading-tight">
-                Bienvenido a <span className="glow-text">{platformName}</span>
+              <h1 className="text-5xl lg:text-6xl font-black text-white leading-tight">
+                Bienvenido a <span className="text-primary">{platformName}</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-white max-w-2xl lg:mx-0 mx-auto">
                 Aprende diseño gráfico, web design, branding y mucho más. Transformamos tu pasión en habilidades.
               </p>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center lg:justify-start">
               <a
                 href="/courses"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:scale-105 smooth-transition"
@@ -95,38 +94,26 @@ export default function Home() {
               </a>
               <a
                 href="/about"
-                className="inline-flex items-center gap-2 px-8 py-3 border border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 smooth-transition"
+                className="inline-flex items-center gap-2 px-8 py-3 border border-primary text-white font-semibold rounded-lg hover:bg-primary/10 smooth-transition"
               >
                 Conocer Más
               </a>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8">
+            <div className="grid grid-cols-3 gap-6 pt-8 max-w-md lg:mx-0 mx-auto">
               <div>
                 <div className="text-3xl font-bold text-primary">25K+</div>
-                <div className="text-sm text-muted-foreground">Estudiantes</div>
+                <div className="text-sm text-white">Estudiantes</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Cursos</div>
+                <div className="text-sm text-white">Cursos</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Satisfacción</div>
+                <div className="text-sm text-white">Satisfacción</div>
               </div>
             </div>
-          </div>
-
-          {/* Right Image */}
-          <div className="relative h-96 hidden lg:block">
-            <ImageWithFallback
-              src="/images/instructor.png"
-              alt="Instructor"
-              fill
-              className="object-cover rounded-2xl"
-              fallbackType="instructor"
-            />
           </div>
         </div>
       </section>
@@ -186,13 +173,13 @@ export default function Home() {
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[...Array(5)].map((_, i) => (
                 <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {courses.map((course) => (
                 <CourseCard key={course.id} {...course} />
               ))}

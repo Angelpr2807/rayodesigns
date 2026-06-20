@@ -12,24 +12,24 @@
     "timezone": "GMT-5",
     "social": [
       {
-        "name": "Facebook",
-        "url": "https://facebook.com",
-        "icon": "facebook"
-      },
-      {
         "name": "Instagram",
         "url": "https://instagram.com",
         "icon": "instagram"
       },
       {
-        "name": "TikTok",
-        "url": "https://tiktok.com",
-        "icon": "tikTok"
+        "name": "Facebook",
+        "url": "https://facebook.com",
+        "icon": "facebook"
       },
       {
-        "name": "Linkedin",
+        "name": "LinkedIn",
         "url": "https://linkedin.com",
         "icon": "linkedin"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://tiktok.com",
+        "icon": "tiktok"
       }
     ]
   }

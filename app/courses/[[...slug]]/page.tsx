@@ -159,14 +159,14 @@ export default function CoursesPage() {
 
         {/* Courses Grid */}
         {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-            {[...Array(10)].map((_, i) => (
-              <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
-            ))}
-          </div>
-        ) : paginatedCourses.length > 0 ? (
-          <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[...Array(10)].map((_, i) => (
+                <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
+              ))}
+            </div>
+          ) : paginatedCourses.length > 0 ? (
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {paginatedCourses.map((course) => (
                 <CourseCard key={course.id} {...course} />
               ))}
