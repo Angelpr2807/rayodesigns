@@ -114,7 +114,7 @@ export default function PortfolioPage() {
               >
                 <div className="relative w-full h-52 overflow-hidden bg-secondary">
                   <ImageWithFallback
-                    src={project.image}
+                    src={`${'/images/portfolio-default.png'}`}
                     alt={project.title}
                     fill
                     className="object-cover group-hover:scale-110 smooth-transition"
