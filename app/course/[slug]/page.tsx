@@ -145,7 +145,7 @@ export default function CourseDetail() {
                 <span>{course.students.toLocaleString()} estudiantes</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Star size={16} className="text-primary fill-primary" />
+                <Star size={16} className="text-yellow-400 fill-yellow-400" strokeWidth={1.5} />
                 <span>{course.rating} / 5</span>
               </div>
             </div>

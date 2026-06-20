@@ -77,7 +77,7 @@ export default function AboutPage() {
                 src="/images/instructor.png"
                 alt="Instructor"
                 fill
-                className="object-cover rounded-xl"
+                className="object-cover object-top rounded-xl"
                 fallbackType="instructor"
               />
             </div>
@@ -85,25 +85,38 @@ export default function AboutPage() {
 
           {/* Quick Info */}
           <div className="lg:col-span-2 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold mb-4">Anthony Paulo Perez</h2>
-            <p className="text-xl text-primary font-semibold mb-6">Diseñador Gráfico Senior</p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              Soy un diseñador gráfico senior con más de 8 años de experiencia en la industria creativa. A lo largo de mi carrera, he trabajado en proyectos de branding, diseño web, animación y más. Mi pasión es educar y compartir mis conocimientos con otros diseñadores.
+            <h2 className="text-3xl font-bold mb-4">Anthony Pérez Requena</h2>
+            <p className="text-xl text-primary font-semibold mb-6">Prof. Ray</p>
+
+            <ul className="space-y-3 mb-8 list-disc list-inside marker:text-primary text-foreground">
+              <li>
+                <span>Comunicador social</span>
+              </li>
+              <li>
+                <span>Diseñador Gráfico</span>
+              </li>
+              <li>
+                <span>Dirección de Arte</span>
+              </li>
+            </ul>
+
+            <p className="text-foreground leading-relaxed mb-8">
+              Soy comunicador social, diseñador gráfico y director de arte con más de 15 años trabajando con grandes empresas. A lo largo de los diversos cursos te compartiré técnicas, herramientas y mi experiencia para que desarrolles proyectos graficos profesionales y creativos.
             </p>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div>
                 <div className="text-2xl font-bold text-primary">8+</div>
-                <div className="text-sm text-muted-foreground">Años de Experiencia</div>
+                <div className="text-sm text-foreground">Años de Experiencia</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">25K+</div>
-                <div className="text-sm text-muted-foreground">Estudiantes</div>
+                <div className="text-2xl font-bold text-primary">900+</div>
+                <div className="text-sm text-foreground">Estudiantes</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Satisfacción</div>
+                <div className="text-sm text-foreground">Satisfacción</div>
               </div>
             </div>
           </div>
@@ -136,7 +149,7 @@ export default function AboutPage() {
             {activeSection === 'biography' && (
               <div className="space-y-6 animate-in fade-in-50">
                 <h3 className="text-2xl font-bold">Mi Historia</h3>
-                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <div className="space-y-4 text-foreground leading-relaxed">
                   <p>
                     Desde que tengo memoria, siempre he tenido una pasión por el arte y el diseño. Mi viaje profesional comenzó hace 8 años cuando decidí estudiar Diseño Gráfico en la Universidad de Artes Aplicadas. Durante mis años de estudiante, participé en varios proyectos que me dieron experiencia valiosa en el mundo real.
                   </p>
@@ -208,12 +221,12 @@ export default function AboutPage() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Mi Filosofía</h4>
-                    <p className="text-muted-foreground leading-relaxed">{data.teachingProfile.philosophy}</p>
+                    <p className="text-foreground leading-relaxed">{data.teachingProfile.philosophy}</p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Mi Enfoque</h4>
-                    <p className="text-muted-foreground leading-relaxed">{data.teachingProfile.approach}</p>
+                    <p className="text-foreground leading-relaxed">{data.teachingProfile.approach}</p>
                   </div>
 
                   <div>
@@ -222,7 +235,7 @@ export default function AboutPage() {
                       {data.teachingProfile.highlights.map((highlight, idx) => (
                         <li key={idx} className="flex items-center gap-3">
                           <Award size={18} className="text-primary flex-shrink-0" />
-                          <span className="text-muted-foreground">{highlight}</span>
+                          <span className="text-foreground">{highlight}</span>
                         </li>
                       ))}
                     </ul>

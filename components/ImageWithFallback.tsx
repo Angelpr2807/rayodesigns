@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
 
 interface ImageWithFallbackProps {
@@ -31,34 +30,34 @@ export default function ImageWithFallback({
   height,
   fill,
   className,
-  priority,
-  sizes,
   objectFit = 'cover',
   fallbackType = 'generic',
 }: ImageWithFallbackProps) {
   const [isError, setIsError] = useState(false);
 
-  const imageProps = {
-    alt,
-    onError: () => setIsError(true),
-    className,
-    priority,
-    sizes,
-    style: objectFit !== 'cover' ? { objectFit } : undefined,
-  };
-
   const source = isError || !src ? fallbackMap[fallbackType] : src;
 
   if (fill) {
-    return <Image {...imageProps} src={source} fill />;
+    return (
+      <img
+        src={source}
+        alt={alt}
+        onError={() => setIsError(true)}
+        className={className}
+        style={{ objectFit, width: '100%', height: '100%' }}
+      />
+    );
   }
 
   return (
-    <Image
-      {...imageProps}
+    <img
       src={source}
+      alt={alt}
+      onError={() => setIsError(true)}
       width={width || 400}
       height={height || 300}
+      className={className}
+      style={{ objectFit }}
     />
   );
 }

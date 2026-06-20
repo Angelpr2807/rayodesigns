@@ -33,7 +33,7 @@ export default function CourseCard({
   return (
     <Link
       href={`/course/${slugify(title)}`}
-      className="group relative block bg-card border border-border overflow-hidden hover:scale-[1.03] smooth-transition"
+      className="group relative block bg-card border border-border overflow-hidden hover:scale-[1.03] smooth-transition shadow-sm"
       style={{ aspectRatio: '4/5' }}
     >
       <ImageWithFallback
@@ -48,7 +48,7 @@ export default function CourseCard({
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 smooth-transition" />
 
       <div className="absolute inset-x-0 bottom-0 p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 smooth-transition">
-        <h3 className="text-sm font-semibold text-white leading-tight line-clamp-2 mb-2">
+        <h3 className="text-sm font-semibold text-foreground leading-tight line-clamp-2 mb-2">
           {title}
         </h3>
 
@@ -60,14 +60,14 @@ export default function CourseCard({
           >
             {level}
           </span>
-          <div className="flex items-center gap-1 text-xs text-white/80">
-            <Star size={12} className="text-primary fill-primary" />
+          <div className="flex items-center gap-1 text-xs text-foreground">
+            <Star size={12} className="text-yellow-400 fill-yellow-400" strokeWidth={1.5} />
             <span>{rating}</span>
             <span>({students})</span>
           </div>
         </div>
 
-        <div className="text-base font-bold text-white">S/ {price.toFixed(2)}</div>
+        <div className="text-base font-bold text-foreground">S/ {price.toFixed(2)}</div>
       </div>
     </Link>
   );

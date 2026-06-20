@@ -105,12 +105,12 @@ export default function PortfolioPage() {
             ))}
           </div>
         ) : filtered.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filtered.map((project) => (
               <Link
                 key={project.id}
                 href={`/portfolio/${project.slug}`}
-                className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 smooth-transition"
+                className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 smooth-transition shadow-sm"
               >
                 <div className="relative w-full h-52 overflow-hidden bg-secondary">
                   <ImageWithFallback

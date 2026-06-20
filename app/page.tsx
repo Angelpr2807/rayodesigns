@@ -61,7 +61,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolue inset-0 z-0">
+        <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="/images/hero.png"
             alt="Hero Background"
@@ -70,27 +70,27 @@ export default function Home() {
             priority
             fallbackType="generic"
           />
-          <div className="absolute inset-0 bg-black/0" />
+          <div className="absolute inset-0 bg-black/75 md:bg-black/50 lg:bg-black/0" />
         </div>
 
-        <div className="max-w-4xl z-2 mx-auto px-4 py-20 lg:py-32 text-center lg:text-left">
+        <div className="max-w-2xl z-2 mx-auto px-4 py-16 lg:py-24 text-left">
           <div className="space-y-6">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-black text-white leading-tight">
+              <h1 className="text-3xl lg:text-4xl font-black text-white leading-tight">
                 Bienvenido a <span className="text-primary">{platformName}</span>
               </h1>
-              <p className="text-xl text-white max-w-2xl lg:mx-0 mx-auto">
-                Aprende diseño gráfico, web design, branding y mucho más. Transformamos tu pasión en habilidades.
+              <p className="text-base lg:text-lg text-white max-w-xl mx-auto">
+                Aprende diseño gráfico, web design, branding y mucho más. Domina <span className="text-primary font-bold">TÉCNICAS PROFESIONALES</span> y desarrolla proyectos de alto impacto.
               </p>
             </div>
 
-            <div className="flex gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="/courses"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:scale-105 smooth-transition"
               >
                 Explorar Cursos
-                <ArrowRight size={20} />
+                <ArrowRight size={20} strokeWidth={1.5} />
               </a>
               <a
                 href="/about"
@@ -100,18 +100,18 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 pt-8 max-w-md lg:mx-0 mx-auto">
+            <div className="grid grid-cols-3 gap-6 pt-6 max-w-md">
               <div>
-                <div className="text-3xl font-bold text-primary">25K+</div>
-                <div className="text-sm text-white">Estudiantes</div>
+                <div className="text-2xl font-bold text-primary">25K+</div>
+                <div className="text-xs text-white">Estudiantes</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">50+</div>
-                <div className="text-sm text-white">Cursos</div>
+                <div className="text-2xl font-bold text-primary">50+</div>
+                <div className="text-xs text-white">Cursos</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">95%</div>
-                <div className="text-sm text-white">Satisfacción</div>
+                <div className="text-2xl font-bold text-primary">95%</div>
+                <div className="text-xs text-white">Satisfacción</div>
               </div>
             </div>
           </div>
@@ -127,28 +127,28 @@ export default function Home() {
                 src="/images/instructor.png"
                 alt="Instructor"
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover object-top rounded-lg"
                 fallbackType="instructor"
               />
             </div>
             <div className="space-y-6">
               <div>
-                <h2 className="text-4xl font-bold mb-4">Acerca de Mí</h2>
+                <h2 className="text-4xl font-semibold mb-4">Acerca de Mí</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Soy comunicador social, diseñador gráfico y director de arte con más de 15 años trabajando con grandes empresas.
                 </p>
               </div>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <Star size={20} className="text-primary mt-1 flex-shrink-0" />
+                  <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <span>Más de 25,000 estudiantes impactados</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Star size={20} className="text-primary mt-1 flex-shrink-0" />
+                  <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <span>95% de satisfacción de estudiantes</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Star size={20} className="text-primary mt-1 flex-shrink-0" />
+                  <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <span>Ponente en conferencias internacionales</span>
                 </li>
               </ul>
@@ -157,7 +157,7 @@ export default function Home() {
                 className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 smooth-transition"
               >
                 Leer Biografía Completa
-                <ArrowRight size={18} />
+                <ArrowRight size={18} strokeWidth={1.5} />
               </a>
             </div>
           </div>
@@ -168,18 +168,18 @@ export default function Home() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <h2 className="text-4xl font-bold mb-4">Últimos Cursos</h2>
+            <h2 className="text-4xl font-semibold mb-4">Últimos Cursos</h2>
             <p className="text-muted-foreground">Explora nuestros cursos más recientes y populares</p>
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[...Array(5)].map((_, i) => (
                 <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {courses.map((course) => (
                 <CourseCard key={course.id} {...course} />
               ))}
@@ -192,7 +192,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:scale-105 smooth-transition"
             >
               Ver Todos los Cursos
-              <ArrowRight size={20} />
+                <ArrowRight size={20} strokeWidth={1.5} />
             </a>
           </div>
         </div>
@@ -202,18 +202,18 @@ export default function Home() {
       <section className="py-20 px-4 bg-secondary/30">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <h2 className="text-4xl font-bold mb-4">Lo Que Dicen Nuestros Estudiantes</h2>
+                <h2 className="text-4xl font-semibold mb-4">Lo Que Dicen Nuestros Estudiantes</h2>
             <p className="text-muted-foreground">Reseñas reales de personas que transformaron sus carreras</p>
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[...Array(3)].map((_, i) => (
                 <div key={i} className="h-64 bg-card rounded-lg animate-pulse" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 smooth-transition">
                   <div className="flex items-start justify-between mb-4">
@@ -238,7 +238,7 @@ export default function Home() {
                       <Star
                         key={i}
                         size={16}
-                        className={i < Math.floor(testimonial.rating) ? 'text-primary fill-primary' : 'text-border'}
+                        className={i < Math.floor(testimonial.rating) ? 'text-yellow-400 fill-yellow-400' : 'text-border'}
                       />
                     ))}
                   </div>

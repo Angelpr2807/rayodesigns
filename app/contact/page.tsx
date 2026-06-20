@@ -117,7 +117,7 @@ export default function ContactPage() {
                 src="/images/instructor.png"
                 alt="Instructor"
                 fill
-                className="object-cover rounded-xl"
+                className="object-cover object-top rounded-xl"
                 fallbackType="instructor"
               />
             </div>

@@ -36,7 +36,7 @@ export default function FAQPage() {
         {/* Header */}
         <div className="mb-16 text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/20 rounded-full mb-6">
-            <HelpCircle className="text-primary" size={32} />
+            <HelpCircle className="text-primary" size={32} strokeWidth={1.5} />
           </div>
           <h1 className="text-5xl lg:text-6xl font-bold mb-4">
             Preguntas <span className="glow-text">Frecuentes</span>
