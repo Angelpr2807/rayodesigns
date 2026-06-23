@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative w-full min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="/images/hero.png"
@@ -73,14 +73,14 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/75 md:bg-black/50 lg:bg-black/0" />
         </div>
 
-        <div className="max-w-2xl z-2 mx-auto px-4 py-16 lg:py-24 text-left">
+        <div className="max-w-lg z-2 mx-auto md:ml-[5vw] lg:ml-[17.5vw] px-4 py-16 lg:py-24 text-left">
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-3xl lg:text-4xl font-black text-white leading-tight">
                 Bienvenido a <span className="text-primary">{platformName}</span>
               </h1>
               <p className="text-base lg:text-lg text-white max-w-xl mx-auto">
-                Aprende diseño gráfico, web design, branding y mucho más. Domina <span className="text-primary font-bold">TÉCNICAS PROFESIONALES</span> y desarrolla proyectos de alto impacto.
+                Aprende diseño gráfico, branding, fotomontaje y mucho más. Domina <span className="text-primary font-bold">TÉCNICAS PROFESIONALES</span> y lleva tus habilidades a otro nivel.
               </p>
             </div>
 
@@ -102,16 +102,16 @@ export default function Home() {
 
             <div className="grid grid-cols-3 gap-6 pt-6 max-w-md">
               <div>
-                <div className="text-2xl font-bold text-primary">25K+</div>
+                <div className="text-2xl font-bold text-primary">1K+</div>
                 <div className="text-xs text-white">Estudiantes</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">50+</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
                 <div className="text-xs text-white">Cursos</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-xs text-white">Satisfacción</div>
+                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-xs text-white">Años de experiencia</div>
               </div>
             </div>
           </div>

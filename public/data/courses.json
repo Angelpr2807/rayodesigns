@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Fotomontaje y retoque creativo 8",
+    "title": "Adobe photoshop básico con IA",
     "category": "graphic-design",
     "description": "Aprende fotomontaje y retoque creativo desde cero. Perfecto para principiantes que quieren iniciar su carrera en el diseño.",
-    "image": "/images/courses/course-1.png",
+    "image": "/images/courses/photoshop-basico-ia.png",
     "price": 29.99,
     "duration": "4 semanas",
     "level": "Principiante",

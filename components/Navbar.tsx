@@ -43,7 +43,7 @@ export default function Navbar() {
       {/* Desktop & Tablet Top Bar */}
       <nav className="fixed top-0 left-0 right-0 h-16 bg-card/80 backdrop-blur-lg border-b border-border z-40 hidden md:flex items-center justify-between px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <img src={`${!isLight ? '/icon.svg' : '/icon-light.svg' }`} alt={`${platformName} Logo`} className="w-32 h-32" />
+          <img src={`${!isLight ? '/icon.svg' : '/icon-light.svg' }`} alt={`${platformName} Logo`} className="w-32" />
         </Link>
 
         <div className="flex items-center gap-1">
