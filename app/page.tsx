@@ -73,14 +73,14 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/75 md:bg-black/50 lg:bg-black/0" />
         </div>
 
-        <div className="max-w-lg z-2 mx-auto md:ml-[5vw] lg:ml-[17.5vw] px-4 py-16 lg:py-24 text-left">
+        <div className="max-w-xl z-2 mx-auto md:ml-[5vw] lg:ml-[17.5vw] px-4 py-16 lg:py-24 text-left">
           <div className="space-y-6">
             <div className="space-y-4">
-              <h1 className="text-3xl lg:text-4xl font-black text-white leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight">
                 Bienvenido a <span className="text-primary">{platformName}</span>
               </h1>
               <p className="text-base lg:text-lg text-white max-w-xl mx-auto">
-                Aprende diseño gráfico, branding, fotomontaje y mucho más. Domina <span className="text-primary font-bold">TÉCNICAS PROFESIONALES</span> y lleva tus habilidades a otro nivel.
+                Aprende diseño gráfico, branding, fotomontaje y mucho más. Aprende <span className="text-primary font-bold">TÉCNICAS PROFESIONALES</span> y lleva tus habilidades a otro nivel.
               </p>
             </div>
 
@@ -100,18 +100,18 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 pt-6 max-w-md">
+            <div className="grid w-full grid-cols-3 gap-6 pt-6">
               <div>
-                <div className="text-2xl font-bold text-primary">1K+</div>
-                <div className="text-xs text-white">Estudiantes</div>
+                <div className="text-4xl font-bold text-primary">1K+</div>
+                <div className="text-md text-white">Estudiantes</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">10+</div>
-                <div className="text-xs text-white">Cursos</div>
+                <div className="text-4xl font-bold text-primary">10+</div>
+                <div className="text-md text-white">Cursos</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">15+</div>
-                <div className="text-xs text-white">Años de experiencia</div>
+                <div className="text-4xl font-bold text-primary">15+</div>
+                <div className="text-md text-white">Años de experiencia</div>
               </div>
             </div>
           </div>

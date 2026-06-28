@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { Search, Filter } from 'lucide-react';
+import { Search, Filter, Package } from 'lucide-react';
 import CourseCard from '@/components/CourseCard';
 
 interface Course {
@@ -25,6 +25,7 @@ interface Category {
 }
 
 const COURSES_PER_PAGE = 10;
+const materialsUrl = process.env.NEXT_PUBLIC_MATERIALS_URL || '';
 
 export default function CoursesPage() {
   const params = useParams();
@@ -102,7 +103,7 @@ export default function CoursesPage() {
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">
             Todos Nuestros <span className="glow-text">Cursos</span>
           </h1>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-foreground text-lg">
             Explora más de 50 cursos en diseño gráfico, web design, branding y más
           </p>
         </div>
@@ -120,6 +121,29 @@ export default function CoursesPage() {
             />
           </div>
 
+          {/* Materials Banner */}
+          {materialsUrl && (
+            <a
+              href={materialsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full p-4 rounded-lg border border-pink-400/30 bg-pink-500/55 hover:border-pink-400/60 hover:bg-pink-500/20 smooth-transition group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-pink-500/20 flex items-center justify-center group-hover:scale-110 smooth-transition">
+                  <img src="/images/socials/patreon.svg" alt="Patreon" className="w-8 h-8" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-foreground">Materiales de Estudio</p>
+                  <p className="text-xs text-foreground">Descarga guías, ejercicios y recursos complementarios, adquierelos en Patreon.</p>
+                </div>
+                <div className="hidden sm:flex items-center gap-1 text-xs font-medium text-pink-400 opacity-0 group-hover:opacity-100 smooth-transition">
+                  Abrir <span className="text-lg leading-none">→</span>
+                </div>
+              </div>
+            </a>
+          )}
+
           <div className="space-y-3">
             <label className="flex items-center gap-2 text-sm font-semibold">
               <Filter size={18} className="text-primary" />
@@ -128,11 +152,10 @@ export default function CoursesPage() {
             <div className="flex flex-wrap gap-3">
               <button
                 onClick={() => handleCategoryChange(null)}
-                className={`px-4 py-2 rounded-lg font-medium smooth-transition ${
-                  selectedCategory === null
+                className={`px-4 py-2 rounded-lg font-medium smooth-transition ${selectedCategory === null
                     ? 'bg-primary text-primary-foreground'
                     : 'bg-card border border-border text-foreground hover:border-primary'
-                }`}
+                  }`}
               >
                 Todas
               </button>
@@ -140,11 +163,10 @@ export default function CoursesPage() {
                 <button
                   key={category.id}
                   onClick={() => handleCategoryChange(category.id)}
-                  className={`px-4 py-2 rounded-lg font-medium smooth-transition ${
-                    selectedCategory === category.id
+                  className={`px-4 py-2 rounded-lg font-medium smooth-transition ${selectedCategory === category.id
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-card border border-border text-foreground hover:border-primary'
-                  }`}
+                    }`}
                 >
                   {category.name}
                 </button>
@@ -159,14 +181,14 @@ export default function CoursesPage() {
 
         {/* Courses Grid */}
         {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[...Array(10)].map((_, i) => (
-                <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
-              ))}
-            </div>
-          ) : paginatedCourses.length > 0 ? (
-            <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[...Array(10)].map((_, i) => (
+              <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
+            ))}
+          </div>
+        ) : paginatedCourses.length > 0 ? (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {paginatedCourses.map((course) => (
                 <CourseCard key={course.id} {...course} />
               ))}
@@ -187,11 +209,10 @@ export default function CoursesPage() {
                     <button
                       key={page}
                       onClick={() => goToPage(page)}
-                      className={`px-3 py-2 rounded-lg font-medium smooth-transition ${
-                        safePage === page
+                      className={`px-3 py-2 rounded-lg font-medium smooth-transition ${safePage === page
                           ? 'bg-primary text-primary-foreground'
                           : 'bg-card border border-border text-foreground hover:border-primary'
-                      }`}
+                        }`}
                     >
                       {page}
                     </button>

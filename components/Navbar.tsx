@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Home, BookOpen, Briefcase, User, HelpCircle, Mail, Sun, Moon, Menu, X } from 'lucide-react';
 
 const platformName = process.env.NEXT_PUBLIC_PLATFORM_NAME || 'DesignHub';
+const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+51942284364';
 
 const links = [
   { href: '/', label: 'Inicio', icon: Home },
@@ -75,7 +76,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile: Bottom controls (theme + menu) */}
+      {/* Mobile: Bottom controls (theme + whatsapp + menu) */}
       <div className="md:hidden fixed bottom-8 right-6 z-50 flex flex-col items-center gap-3">
         <button
           onClick={toggleTheme}
@@ -84,6 +85,15 @@ export default function Navbar() {
         >
           {isLight ? <Moon size={16} /> : <Sun size={16} />}
         </button>
+        <a
+          href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Hola, quisiera mas informacion sobre los cursos disponibles de ' + platformName + '.')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-9 h-9 rounded-full bg-whatsapp text-white flex items-center justify-center shadow-lg shadow-whatsapp/30 hover:scale-110 active:scale-95 smooth-transition"
+          aria-label="WhatsApp"
+        >
+          <img src="/images/socials/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
+        </a>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="w-14 h-14 rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/30 flex items-center justify-center hover:scale-110 active:scale-95 smooth-transition"
@@ -155,6 +165,17 @@ export default function Navbar() {
           </div>
         </div>
       )}
+
+      {/* Desktop: Floating WhatsApp */}
+      <a
+        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Hola, quisiera mas informacion sobre los cursos disponibles de ' + platformName + '.')}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 hidden md:flex w-14 h-14 rounded-full bg-whatsapp text-white items-center justify-center shadow-lg shadow-whatsapp/30 hover:scale-110 active:scale-95 smooth-transition"
+        aria-label="WhatsApp"
+      >
+        <img src="/images/socials/whatsapp.svg" alt="WhatsApp" className="w-8 h-8" />
+      </a>
     </>
   );
 }

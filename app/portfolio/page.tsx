@@ -54,7 +54,7 @@ export default function PortfolioPage() {
           <h1 className="text-5xl lg:text-6xl font-bold mb-4">
             Mi <span className="glow-text">Portfolio</span>
           </h1>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-foreground text-lg">
             Proyectos seleccionados que muestran mi trabajo en diseño gráfico, branding, UI/UX y más
           </p>
         </div>
@@ -131,7 +131,7 @@ export default function PortfolioPage() {
                   <h3 className="font-semibold mb-2 group-hover:text-primary smooth-transition">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                  <p className="text-sm text-foreground line-clamp-2 mb-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-1.5">

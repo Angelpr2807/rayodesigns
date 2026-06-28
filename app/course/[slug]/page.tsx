@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useParams, notFound } from 'next/navigation';
-import { Star, Clock, Users, ArrowLeft, ShoppingCart, CheckCircle, PlayCircle } from 'lucide-react';
+import { Star, Clock, Users, ArrowLeft, ShoppingCart, CheckCircle, PlayCircle, Package } from 'lucide-react';
 import { slugify } from '@/lib/utils';
 import ImageWithFallback from '@/components/ImageWithFallback';
 
@@ -38,8 +38,9 @@ const levelColors: Record<string, string> = {
   Avanzado: 'bg-red-500/20 text-red-300',
 };
 
-const platformName = process.env.NEXT_PUBLIC_PLATFORM_NAME || 'DesignHub';
-const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '593000000000';
+const platformName = process.env.NEXT_PUBLIC_PLATFORM_NAME || 'RayoStudio';
+const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+51942284364';
+const materialsUrl = process.env.NEXT_PUBLIC_MATERIALS_URL || 'https://www.patreon.com/cw/RayoStudio';
 
 export default function CourseDetail() {
   const params = useParams();
@@ -102,9 +103,8 @@ export default function CourseDetail() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
           <div className="absolute bottom-6 left-6 right-6">
             <span
-              className={`inline-block text-xs font-semibold px-3 py-1 rounded mb-3 ${
-                levelColors[course.level] || 'bg-gray-500/20 text-gray-300'
-              }`}
+              className={`inline-block text-xs font-semibold px-3 py-1 rounded mb-3 ${levelColors[course.level] || 'bg-gray-500/20 text-gray-300'
+                }`}
             >
               {course.level}
             </span>
@@ -187,6 +187,7 @@ export default function CourseDetail() {
             <div>
               <span className="text-3xl font-bold text-primary">S/ {course.price.toFixed(2)}</span>
             </div>
+
             <a
               href={`https://wa.me/${whatsappNumber}?text=${whatsappMsg}`}
               target="_blank"
@@ -199,6 +200,21 @@ export default function CourseDetail() {
             <p className="text-xs text-muted-foreground text-center">
               Pago directo por WhatsApp. Responde cualquier duda antes de comprar.
             </p>
+
+            {materialsUrl && (
+              <>
+                <div className="border-t border-border/50" />
+                <a
+                  href={materialsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-4 w-full px-2 py-3 border border-pink-400/30 text-pink-400 font-semibold rounded-lg hover:bg-pink-500/10 hover:border-pink-400/60 smooth-transition group"
+                >
+                  <img src="/images/socials/patreon.svg" alt="Patreon" className="w-8 h-8" />
+                  Adquirir Materiales
+                </a>
+              </>
+            )}
           </div>
         </div>
       </div>

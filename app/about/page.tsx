@@ -65,7 +65,7 @@ export default function AboutPage() {
           <h1 className="text-5xl lg:text-6xl font-bold mb-4">
             Acerca de <span className="glow-text">Mí</span>
           </h1>
-          <p className="text-muted-foreground text-lg">Conoce mi historia, formación y experiencia</p>
+          <p className="text-foreground text-lg">Conoce mi historia, formación y experiencia</p>
         </div>
 
         {/* Profile Card */}

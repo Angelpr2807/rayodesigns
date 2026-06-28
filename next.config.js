@@ -1,4 +1,4 @@
 // next.config.js
 module.exports = {
-  allowedDevOrigins: ['192.168.18.30', '192.168.137.221'],
+  allowedDevOrigins: ['192.168.18.30', '172.16.149.230'],
 }
