@@ -28,7 +28,6 @@ export default function CourseCard({
   price,
   level,
   rating,
-  students,
 }: CourseCardProps) {
   return (
     <Link
@@ -63,7 +62,6 @@ export default function CourseCard({
           <div className="flex items-center gap-1 text-xs text-foreground">
             <Star size={12} className="text-yellow-400 fill-yellow-400" strokeWidth={1.5} />
             <span>{rating}</span>
-            <span>({students})</span>
           </div>
         </div>
 

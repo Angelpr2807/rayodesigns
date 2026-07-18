@@ -16,11 +16,11 @@ interface ImageWithFallbackProps {
 }
 
 const fallbackMap: Record<string, string> = {
-  course: '/images/courses/course-default.png',
-  portfolio: '/images/portfolio/portfolio-default.png',
-  testimonial: '/images/testimonials/avatar-default.png',
-  instructor: '/images/testimonials/avatar-default.png',
-  generic: '/images/testimonials/avatar-default.png',
+  course: '/images/courses/course-default.webp',
+  portfolio: '/images/portfolio/portfolio-default.webp',
+  testimonial: '/images/testimonials/avatar-default.webp',
+  instructor: '/images/testimonials/avatar-default.webp',
+  generic: '/images/testimonials/avatar-default.webp',
 };
 
 export default function ImageWithFallback({

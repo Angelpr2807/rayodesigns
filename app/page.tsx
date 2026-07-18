@@ -63,7 +63,7 @@ export default function Home() {
       <section className="relative w-full min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/images/hero.png"
+            src="/images/hero.webp"
             alt="Hero Background"
             fill
             className="object-cover object-top-right lg:object-center"
@@ -124,7 +124,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96">
               <ImageWithFallback
-                src="/images/instructor.png"
+                src="/images/instructor.webp"
                 alt="Instructor"
                 fill
                 className="object-cover object-top rounded-lg"
@@ -135,21 +135,25 @@ export default function Home() {
               <div>
                 <h2 className="text-4xl font-semibold mb-4">Acerca de Mí</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Soy comunicador social, diseñador gráfico y director de arte con más de 15 años trabajando con grandes empresas.
+                  Con más de 15 años de experiencia, he formado una comunidad de miles de estudiantes apasionados por el diseño. En RayoStudio comparto técnicas profesionales, proyectos reales y metodologías que te ayudarán a llevar tu creatividad al siguiente nivel.
                 </p>
               </div>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <span>Más de 25,000 estudiantes impactados</span>
+                  <span>+1.500 estudiantes impactados</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <span>95% de satisfacción de estudiantes</span>
+                  <span>10+ cursos profesionales</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <span>Ponente en conferencias internacionales</span>
+                  <span>15+ años de experiencia</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Star size={20} className="text-yellow-400 mt-1 flex-shrink-0" strokeWidth={1.5} />
+                  <span>Conferencista internacional</span>
                 </li>
               </ul>
               <a
@@ -192,7 +196,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:scale-105 smooth-transition"
             >
               Ver Todos los Cursos
-                <ArrowRight size={20} strokeWidth={1.5} />
+              <ArrowRight size={20} strokeWidth={1.5} />
             </a>
           </div>
         </div>
@@ -202,7 +206,7 @@ export default function Home() {
       <section className="py-20 px-4 bg-secondary/30">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-                <h2 className="text-4xl font-semibold mb-4">Lo Que Dicen Nuestros Estudiantes</h2>
+            <h2 className="text-4xl font-semibold mb-4">Lo Que Dicen Nuestros Estudiantes</h2>
             <p className="text-muted-foreground">Reseñas reales de personas que transformaron sus carreras</p>
           </div>
 

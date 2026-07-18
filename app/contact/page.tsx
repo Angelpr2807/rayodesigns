@@ -114,7 +114,7 @@ export default function ContactPage() {
           <div className="flex items-center justify-center">
             <div className="relative w-full h-full min-h-96 lg:h-auto">
               <ImageWithFallback
-                src="/images/instructor.png"
+                src="/images/instructor.webp"
                 alt="Instructor"
                 fill
                 className="object-cover object-top rounded-xl"

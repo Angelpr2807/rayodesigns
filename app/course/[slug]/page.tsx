@@ -24,9 +24,7 @@ interface Course {
   description: string;
   image: string;
   price: number;
-  duration: string;
   level: string;
-  students: number;
   rating: number;
   whatYouLearn: string[];
   curriculum: Module[];
@@ -137,16 +135,8 @@ export default function CourseDetail() {
 
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Clock size={16} className="text-primary" />
-                <span>{course.duration}</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Users size={16} className="text-primary" />
-                <span>{course.students.toLocaleString()} estudiantes</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Star size={16} className="text-yellow-400 fill-yellow-400" strokeWidth={1.5} />
-                <span>{course.rating} / 5</span>
+                <span>{course.rating || 4.8} / 5</span>
               </div>
             </div>
 

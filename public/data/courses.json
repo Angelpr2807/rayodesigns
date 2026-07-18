@@ -1,44 +1,342 @@
 [
   {
     "id": 1,
-    "title": "Adobe photoshop básico con IA",
+    "title": "Adobe Photoshop + IA ",
     "category": "graphic-design",
-    "description": "Aprende fotomontaje y retoque creativo desde cero. Perfecto para principiantes que quieren iniciar su carrera en el diseño.",
-    "image": "/images/courses/photoshop-basico-ia.png",
-    "price": 29.99,
-    "duration": "4 semanas",
+    "description": "Aprende Adobe Photoshop + IA desde cero y domina las técnicas utilizadas por diseñadores profesionales para crear composiciones visuales de alto impacto, potenciando tu creatividad con inteligencia artificial.",
+    "image": "/images/courses/adobe-Photoshop-ia.webp",
+    "price": 59.90,
     "level": "Principiante",
-    "students": 1240,
     "rating": 4.8,
     "whatYouLearn": [
-      "Fundamentos del diseño gráfico profesional",
-      "Teoría del color y su aplicación práctica",
-      "Principios de composición y balance visual",
-      "Tipografía básica y jerarquía textual"
+      "Mentalidad y fundamentos del diseño profesional.",
+      "Composición visual e impacto gráfico.",
+      "Inteligencia Artificial y creación de prompts.",
+      "Fotomontajes profesionales con Photoshop."
     ],
     "curriculum": [
       {
-        "module": "Introducción al Diseño",
+        "module": "El ADN de un diseñador rayo",
         "classes": [
-          { "title": "¿Qué es el diseño gráfico?", "duration": "15 min" },
-          { "title": "El rol del diseñador hoy", "duration": "12 min" },
-          { "title": "Herramientas esenciales", "duration": "18 min" }
+          {
+            "title": "¿Como pensar como un diseñador pro?"
+          },
+          {
+            "title": "Los 3 principios que hacen que un diseño venda"
+          },
+          {
+            "title": "La verdad sobre los diseños \"bonitos\""
+          },
+          {
+            "title": "¿Cómo desarrollar un estilo imposible de copiar?"
+          }
         ]
       },
       {
-        "module": "Teoría del Color",
+        "module": "El método rayo para dominar",
         "classes": [
-          { "title": "Círculo cromático", "duration": "20 min" },
-          { "title": "Psicología del color", "duration": "25 min" },
-          { "title": "Paletas armónicas", "duration": "22 min" }
+          {
+            "title": "¿Qué hace imposible ignorar una imagen?"
+          },
+          {
+            "title": "Los disparadores del impacto visual"
+          },
+          {
+            "title": "El control de la mirada pt.1"
+          },
+          {
+            "title": "El control de la mirada pt.2"
+          }
         ]
       },
       {
-        "module": "Composición",
+        "module": "El método rayo para dominar pt. 2",
         "classes": [
-          { "title": "Regla de los tercios", "duration": "15 min" },
-          { "title": "Equilibrio y peso visual", "duration": "20 min" },
-          { "title": "Espacio negativo", "duration": "18 min" }
+          {
+            "title": "Desmitificando la IA"
+          },
+          {
+            "title": "El arte de generar Prompts con la IA"
+          },
+          {
+            "title": "De la idea al impacto: tu nuevo copiloto creativo"
+          }
+        ]
+      },
+      {
+        "module": "Photoshop Rayo: Del lienzo al impacto",
+        "classes": [
+          {
+            "title": "Proyecto rayo #1: construyendo impacto"
+          },
+          {
+            "title": "Proyecto rayo #2: composición y poder visual"
+          },
+          {
+            "title": "Proyecto rayo #3: nivel profesional"
+          },
+          {
+            "title": "Técnicas de iluminación"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ilustración vectorial desde cero",
+    "category": "graphic-design",
+    "description": "Aprende Adobe Illustrator desde cero y domina la ilustración vectorial con una metodología práctica. Crea personajes, logotipos e ilustraciones profesionales utilizando herramientas, técnicas y flujos de trabajo empleados por diseñadores expertos.",
+    "image": "/images/courses/ilustracion-vectorial-desde-cero.webp",
+    "price": 59.90,
+    "level": "Principiante",
+    "rating": 4.8,
+    "whatYouLearn": [
+      "Dominar la interfaz y herramientas esenciales de Illustrator.",
+      "Crear ilustraciones vectoriales con trazados precisos.",
+      "Aplicar color, paletas y composición profesional.",
+      "Diseñar personajes y proyectos vectoriales desde cero."
+    ],
+    "curriculum": [
+      {
+        "module": "Ilustrador rayo",
+        "classes": [
+          {
+            "title": "Preparando tu espacio de trabajo"
+          },
+          {
+            "title": "Herramientas esenciales"
+          },
+          {
+            "title": "Pluma sin complicaciones"
+          },
+          {
+            "title": "Formas inteligentes"
+          },
+          {
+            "title": "Capas y organización "
+          },
+          {
+            "title": "Atajos que duplican tu velocidad"
+          }
+        ]
+      },
+      {
+        "module": "Dominando el arte vectorial",
+        "classes": [
+          {
+            "title": "El secreto de las curvas perfectas"
+          },
+          {
+            "title": "Trazados limpios"
+          },
+          {
+            "title": "Construcción geométrica"
+          }
+        ]
+      },
+      {
+        "module": "El color como un profesional",
+        "classes": [
+          {
+            "title": "Psicología del color"
+          },
+          {
+            "title": "Paletas armónicas"
+          }
+        ]
+      },
+      {
+        "module": "Proyectos rayo",
+        "classes": [
+          {
+            "title": "Construcción completa de un personaje"
+          },
+          {
+            "title": "Mascota Cartoon"
+          },
+          {
+            "title": "Exportación profesional "
+          },
+          {
+            "title": "Preparación para impresión y medios digitales "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Impresión a gran formato",
+    "category": "graphic-design",
+    "description": "Aprende a preparar archivos para impresión a gran formato utilizando Adobe Photoshop e Illustrator. Domina los procesos de preprensa, configuración, optimización y exportación para entregar proyectos listos para imprimir con calidad profesional.",
+    "image": "/images/courses/impresion-a-gran-formato.webp",
+    "price": 59.90,
+    "level": "Principiante",
+    "rating": 4.7,
+    "whatYouLearn": [
+      "Configurar archivos para impresión profesional.",
+      "Dominar resolución, color y escalas de impresión.",
+      "Preparar diseños en Photoshop e Illustrator.",
+      "Optimizar imágenes para gran formato."
+    ],
+    "curriculum": [
+      {
+        "module": "El método rayo para preparar archivos",
+        "classes": [
+          {
+            "title": "RGB vs CMYK (la verdad)"
+          },
+          {
+            "title": "Resolución según el tamaño"
+          },
+          {
+            "title": "Sangrados y márgenes de seguridad"
+          },
+          {
+            "title": "Escalas de impresión"
+          },
+          {
+            "title": "Modos de color "
+          },
+          {
+            "title": "Tamaños reales y escalados"
+          }
+        ]
+      },
+      {
+        "module": "Photoshop + Ilustrator para gran formato",
+        "classes": [
+          {
+            "title": "Configuración correcta del documento"
+          },
+          {
+            "title": "Resolución inteligente"
+          },
+          {
+            "title": "Objetos inteligentes"
+          },
+          {
+            "title": "Remuestreo profesional"
+          },
+          {
+            "title": "Limpieza y retoque para impresión"
+          },
+          {
+            "title": "Optimización de fotografías gigantes"
+          },
+          {
+            "title": "Exportación profesional"
+          }
+        ]
+      },
+      {
+        "module": "Gran formato sin errores",
+        "classes": [
+          {
+            "title": "Imagenes perdidas"
+          },
+          {
+            "title": "Fuentes"
+          },
+          {
+            "title": "Enlaces"
+          },
+          {
+            "title": "Transparencias"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Adobe ilustrator desde cero",
+    "category": "graphic-design",
+    "description": "Aprende Adobe Illustrator desde cero y domina las herramientas esenciales para crear logotipos, ilustraciones y diseños vectoriales con un flujo de trabajo profesional. Desarrolla proyectos creativos listos para impresión y medios digitales.",
+    "image": "/images/courses/adobe-ilustrator-desde-cero.webp",
+    "price": 59.90,
+    "level": "Principiante",
+    "rating": 4.7,
+    "whatYouLearn": [
+      "Dominar la interfaz y el espacio de trabajo de Illustrator.",
+      "Crear ilustraciones con herramientas vectoriales profesionales.",
+      "Diseñar logotipos, íconos y personajes desde cero.",
+      "Utilizar Pathfinder, Shape Builder y máscaras de recorte."
+    ],
+    "curriculum": [
+      {
+        "module": "Ilustrador rayo: Tu primer contacto",
+        "classes": [
+          {
+            "title": "Conociendo la interfaz"
+          },
+          {
+            "title": "Mesas de trabajo"
+          },
+          {
+            "title": "Paneles y ventanas"
+          },
+          {
+            "title": "Configuración del documento"
+          }
+        ]
+      },
+      {
+        "module": "Herramientas esenciales",
+        "classes": [
+          {
+            "title": "Herramienta Selección"
+          },
+          {
+            "title": "Selección Directa"
+          },
+          {
+            "title": "Formas básicas"
+          },
+          {
+            "title": "Herramienta Pluma"
+          }
+        ]
+      },
+      {
+        "module": "Construcción vectorial",
+        "classes": [
+          {
+            "title": "Formas inteligentes "
+          },
+          {
+            "title": "Pathfinder"
+          },
+          {
+            "title": "Shape Builder"
+          },
+          {
+            "title": "Alinear y distribuir"
+          },
+          {
+            "title": "Agrupar objetos"
+          },
+          {
+            "title": "Organización por capas"
+          },
+          {
+            "title": "Máscaras de recorte"
+          }
+        ]
+      },
+      {
+        "module": "Proyectos rayo",
+        "classes": [
+          {
+            "title": "Diseño de un logotipo básico"
+          },
+          {
+            "title": "Íconos e ilustraciones simples"
+          },
+          {
+            "title": "Personaje vectorial básico"
+          }
         ]
       }
     ]

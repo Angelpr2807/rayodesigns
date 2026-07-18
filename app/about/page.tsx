@@ -74,7 +74,7 @@ export default function AboutPage() {
           <div className="flex justify-center lg:col-span-1">
             <div className="relative w-full max-w-sm h-96">
               <ImageWithFallback
-                src="/images/instructor.png"
+                src="/images/instructor.webp"
                 alt="Instructor"
                 fill
                 className="object-cover object-top rounded-xl"
