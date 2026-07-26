@@ -1,51 +1,62 @@
 {
   "education": [
     {
-      "institution": "Universidad de Artes Aplicadas",
-      "degree": "Licenciatura en Diseño Gráfico",
-      "year": "2014 - 2018"
-    },
-    {
-      "institution": "Instituo de Diseño Digital",
-      "degree": "Especialización en UI/UX Design",
-      "year": "2019"
-    },
-    {
-      "institution": "Coursera & Skillshare",
+      "institution": "-",
       "degree": "Múltiples certificaciones en diseño",
-      "year": "2018 - Presente"
+      "year": "2019 – Presente"
+    },
+    {
+      "institution": "Instituto Continental",
+      "degree": "Técnico en Diseño Gráfico Publicitario",
+      "year": "2021 - 2023"
+    },
+    {
+      "institution": "Instituto Peruano de Arte y Diseño",
+      "degree": "Diseño Digital",
+      "year": "2019 - 2020"
+    },
+    {
+      "institution": "Universidad Nacional del Centro del Perú",
+      "degree": "Licenciatura en Ciencias de la Comunicación",
+      "year": "2014 - 2019"
     }
   ],
   "experience": [
     {
-      "company": "Tech Innovations Inc.",
-      "position": "Lead Designer",
-      "duration": "2020 - Presente",
-      "description": "Lideré el equipo de diseño en la creación de productos digitales para millones de usuarios. Implementé sistemas de diseño y mejores prácticas de UX/UI."
-    },
-    {
-      "company": "Creative Studio Pro",
-      "position": "Senior Designer",
-      "duration": "2018 - 2020",
-      "description": "Trabajé en proyectos de branding, diseño web y campaña de marketing para más de 50 clientes de diferentes industrias."
-    },
-    {
-      "company": "Digital Agency Co.",
-      "position": "Graphic Designer",
-      "duration": "2015 - 2018",
+      "company": "Grupo PROEDUCA – Futura Schools",
+      "position": "Director de Arte/Comunicador Gráfico",
+      "duration": "2024 – Presente",
       "description": "Participé en la creación de identidades visuales, diseño editorial y material de marketing para clientes corporativos."
+    },
+    {
+      "company": "RayoStudio",
+      "position": "Consultor en Comunicación Visual y Dirección de Arte",
+      "duration": "2022 – Presente",
+      "description": "Diseñador visual y consultor estratégico especializado en el desarrollo integral de branding e identidad de marca para negocios y emprendimientos."
+    },
+    {
+      "company": "Grupo ZÁRATE VERÁSTEGUI",
+      "position": "Director de Arte y Especialista en Comunicación Visual",
+      "duration": "2024 – 2025",
+      "description": "Diseñador y comunicador visual especializado en crear estrategias gráficas integrales."
+    },
+    {
+      "company": "Academias y Colegios Zárate",
+      "position": "Comunicador Gráfico",
+      "duration": "2019 – 2024",
+      "description": "Diseñador y comunicador visual con experiencia en liderar la creación de contenido multimedia y piezas gráficas para campañas publicitarias e institucionales."
     }
   ],
   "teachingProfile": {
     "yearsTeaching": 8,
-    "studentsImpacted": 25000,
+    "studentsImpacted": 1000,
     "philosophy": "Mi filosofía como docente es hacer el aprendizaje accesible, práctico y motivador. Creo que cualquiera puede aprender diseño si tiene las herramientas y la guía correcta.",
     "approach": "Combino teoría con proyectos reales. Mis estudiantes no solo aprenden conceptos, sino que construyen un portafolio profesional durante el curso.",
     "highlights": [
-      "95% de satisfacción de estudiantes",
-      "Más de 10,000 estudiantes activos",
-      "Ponente en conferencias internacionales de diseño",
-      "Colaborador con empresas Fortune 500"
+      "Más de 15 años de experiencia en diseño y comunicación visual",
+      "Diseñador gráfico, comunicador y director de arte",
+      "Experiencia como colaborador en grandes marcas y proyectos profesionales",
+      "Ponente en conferencias nacionales e internacionales de comunicación y diseño"
     ]
   }
 }

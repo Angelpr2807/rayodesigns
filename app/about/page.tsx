@@ -85,7 +85,7 @@ export default function AboutPage() {
 
           {/* Quick Info */}
           <div className="lg:col-span-2 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold mb-4">Anthony Pérez Requena</h2>
+            <h2 className="text-3xl font-bold mb-4">Anthony Paolo Pérez Requena</h2>
             <p className="text-xl text-primary font-semibold mb-6">Prof. Ray</p>
 
             <ul className="space-y-3 mb-8 list-disc list-inside marker:text-primary text-foreground">
@@ -107,16 +107,16 @@ export default function AboutPage() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div>
-                <div className="text-2xl font-bold text-primary">8+</div>
+                <div className="text-2xl font-bold text-primary">15+</div>
                 <div className="text-sm text-foreground">Años de Experiencia</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">900+</div>
+                <div className="text-2xl font-bold text-primary">1k+</div>
                 <div className="text-sm text-foreground">Estudiantes</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-sm text-foreground">Satisfacción</div>
+                <div className="text-2xl font-bold text-primary">200+</div>
+                <div className="text-sm text-foreground">Marcas creadas</div>
               </div>
             </div>
           </div>
@@ -151,13 +151,9 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold">Mi Historia</h3>
                 <div className="space-y-4 text-foreground leading-relaxed">
                   <p>
-                    Desde que tengo memoria, siempre he tenido una pasión por el arte y el diseño. Mi viaje profesional comenzó hace 8 años cuando decidí estudiar Diseño Gráfico en la Universidad de Artes Aplicadas. Durante mis años de estudiante, participé en varios proyectos que me dieron experiencia valiosa en el mundo real.
-                  </p>
-                  <p>
-                    Después de graduarme, trabajé en una agencia digital donde tuve la oportunidad de trabajar con clientes internacionales. Esta experiencia me enseñó la importancia de la comunicación visual efectiva y cómo el diseño puede transformar negocios.
-                  </p>
-                  <p>
-                    Hoy en día, combino mi experiencia profesional con mi pasión por la educación. Creo que el diseño es una habilidad que cualquiera puede aprender, y mi misión es hacer que sea accesible para todos. A través de mis cursos, he tenido el privilegio de ayudar a miles de estudiantes a comenzar sus carreras en diseño.
+                    Soy Anthony Paolo Pérez Requena, Licenciado en Ciencias de la Comunicación, diseñador gráfico y director de arte con más de 15 años de experiencia profesional. Mi formación en comunicación me permitió comprender el poder de los mensajes, y el diseño se convirtió en la herramienta para transformarlos en experiencias visuales de impacto.
+                    <br /><br />
+He trabajado con diversas empresas y proyectos desarrollando soluciones gráficas, campañas publicitarias e identidades visuales. Hoy, a través de Rayo Studio, comparto mi experiencia y metodología para ayudar a nuevos diseñadores a potenciar su creatividad y alcanzar un nivel profesional.
                   </p>
                 </div>
               </div>

@@ -3,7 +3,20 @@
 import { ArrowRight, Star } from 'lucide-react';
 import CourseCard from '@/components/CourseCard';
 import ImageWithFallback from '@/components/ImageWithFallback';
+import Carousel from '@/components/Carousel';
+import CTASection from '@/components/CTASection';
 import { useState, useEffect } from 'react';
+
+const carruselImages = [
+  '/images/carrusel-1.jpeg',
+  '/images/carrusel-2.png',
+  '/images/carrusel-3.jpeg',
+  '/images/carrusel-4.jpeg',
+  '/images/carrusel-5.png',
+  '/images/carrusel-6.png',
+  '/images/carrusel-8.png',
+  '/images/carrusel-9.png',
+];
 
 interface Course {
   id: number;
@@ -168,6 +181,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Carousel Section */}
+      <section className="py-12 px-4 overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-8">
+            <h2 className="text-4xl font-semibold">Mis <span className="glow-text">Proyectos</span></h2>
+          </div>
+          <Carousel images={carruselImages} interval={5000} visibleCount={4} />
+        </div>
+      </section>
+
       {/* Latest Courses Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
@@ -177,13 +200,13 @@ export default function Home() {
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[...Array(5)].map((_, i) => (
                 <div key={i} className="h-80 bg-secondary rounded-lg animate-pulse" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {courses.map((course) => (
                 <CourseCard key={course.id} {...course} />
               ))}
@@ -201,6 +224,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <CTASection />
 
       {/* Testimonials Section */}
       <section className="py-20 px-4 bg-secondary/30">

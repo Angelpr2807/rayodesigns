@@ -33,7 +33,7 @@ export default function CourseCard({
     <Link
       href={`/course/${slugify(title)}`}
       className="group relative block bg-card border rounded-xl border-border overflow-hidden hover:scale-[1.03] smooth-transition shadow-sm"
-      style={{ aspectRatio: '4/5' }}
+      style={{ aspectRatio: '3/4' }}
     >
       <ImageWithFallback
         src={image}

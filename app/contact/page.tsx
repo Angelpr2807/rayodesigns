@@ -17,7 +17,7 @@ interface Contact {
 const iconMap: Record<string, React.ReactNode> = {
   instagram: <img src="/images/socials/instagram.svg" alt="Instagram" className="w-6 h-6" />,
   facebook: <img src="/images/socials/facebook.svg" alt="Facebook" className="w-6 h-6" />,
-  linkedin: <img src="/images/socials/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />,
+  youtube: <img src="/images/socials/youtube.svg" alt="Youtube" className="w-6 h-6" />,
   tiktok: <img src="/images/socials/tiktok.svg" alt="TikTok" className="w-6 h-6" />,
 };
 

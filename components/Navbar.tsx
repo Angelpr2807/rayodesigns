@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Home, BookOpen, Briefcase, User, HelpCircle, Mail, Sun, Moon, Menu, X } from 'lucide-react';
 
-const platformName = process.env.NEXT_PUBLIC_PLATFORM_NAME || 'DesignHub';
+const platformName = process.env.NEXT_PUBLIC_PLATFORM_NAME || 'RayoDesigns';
 const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+51942284364';
 
 const links = [

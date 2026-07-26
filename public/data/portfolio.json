@@ -1,13 +1,86 @@
 [
   {
     "id": 1,
-    "title": "Maverick Studio — Identidad Visual",
-    "description": "Branding completo para estudio creativo especializado en motion graphics",
-    "fullDescription": "Diseñé la identidad visual completa para Maverick Studio, un estudio creativo enfocado en motion graphics y animación. El proyecto incluyó diseño de logotipo, paleta cromática, tipografía corporativa, papelería y guía de marca. El resultado es una identidad audaz y versátil que refleja la energía creativa del estudio.",
-    "image": "/images/portfolio/project-1.png",
-    "tags": ["Branding", "Logo", "Guía de Marca"],
-    "category": "branding",
-    "url": "https://behance.net",
-    "slug": "maverick-studio-identidad-visual"
+    "title": "Social Media – Panadería Lalos",
+    "description": "Desarrollo de contenido visual para redes sociales, creando piezas gráficas enfocadas en comunicar la esencia de la marca, potenciar sus productos y generar conexión con su audiencia.",
+    "fullDescription": "Desarrollo de contenido visual para redes sociales, creando piezas gráficas enfocadas en comunicar la esencia de la marca, potenciar sus productos y generar conexión con su audiencia. Se trabajó una línea visual atractiva combinando fotografía de producto, composición publicitaria y diseño estratégico para campañas comerciales, fechas especiales y comunicación digital.",
+    "image": "/images/portfolio/panaderia-lalos.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Social Media – Siete Lomos",
+    "description": "Creación de una línea visual para social media basada en la esencia gastronómica de la marca.",
+    "fullDescription": "Creación de una línea visual para social media basada en la esencia gastronómica de la marca. El proyecto integra dirección de arte, retoque fotográfico, composición visual y recursos gráficos para destacar platos, experiencias y momentos especiales, generando una identidad cercana, dinámica y memorable.",
+    "image": "/images/portfolio/siete-lomos.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Branding – Estudio Jurídico Paulina Torres",
+    "description": "Desarrollo de identidad visual corporativa para un estudio jurídico, creando una marca elegante, sólida y profesional.",
+    "fullDescription": "Desarrollo de identidad visual corporativa para un estudio jurídico, creando una marca elegante, sólida y profesional. El proyecto incluyó diseño de isologo, construcción gráfica, selección tipográfica, aplicaciones de marca y desarrollo de piezas corporativas, buscando transmitir confianza, autoridad y respaldo legal.",
+    "image": "/images/portfolio/estudio-juridico-paulina-torres.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Branding – DJ Bone Rayo Studio",
+    "description": "Desarrollo de identidad visual y gráfica para el proyecto musical de un DJ, creando una marca enérgica, moderna y con un estilo urbano/alternativo.",
+    "fullDescription": "Desarrollo de identidad visual y gráfica para el proyecto musical de un DJ, creando una marca enérgica, moderna y con un estilo urbano/alternativo. El proyecto incluyó el diseño de logotipo e isologo (con una iconografía de calavera), aplicaciones en merchandising como gorras y indumentaria, diseño de tarjetería, afiches para eventos y piezas gráficas promocionales, buscando transmitir dinamismo, ritmo y una fuerte personalidad escénica.",
+    "image": "/images/portfolio/dj-bone-rayo-studio.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Etiqueta Cerveza Cascade",
+    "description": "Creación de una línea visual para social media basada en la esencia gastronómica de la marca.",
+    "fullDescription": "Desarrollo de identidad visual y diseño de etiqueta para la línea de cerveza \"Padres Fundadores American Lager\", creando una marca con un estilo clásico, patriótico y de inspiración tradicional americana. El proyecto incluyó el diseño de logotipo e isologo con la ilustración de un personaje histórico, la estructura gráfica de la etiqueta, selección tipográfica, aplicaciones en merchandising como gorras, mockups de presentación en botellas y empaques, buscando transmitir calidad artesanal, herencia y distinción.",
+    "image": "/images/portfolio/etiqueta-cerveza-cascade.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Etiquetas de Cervezas Cascade",
+    "description": "Desarrollo de identidad visual y diseño de etiquetas para una familia completa de cervezas artesanales de la marca Cascade (\"Padres Fundadores American Lager\", \"Jack's Swamp Pumpkin Ale\", \"Pequot American Porter\" y \"Taj Mahop English IPA\"), creando un sistema de marca cohesionado pero con identidades propias y diferenciadas para cada estilo.",
+    "fullDescription": "Desarrollo de identidad visual y diseño de etiquetas para una familia completa de cervezas artesanales de la marca Cascade (\"Padres Fundadores American Lager\", \"Jack's Swamp Pumpkin Ale\", \"Pequot American Porter\" y \"Taj Mahop English IPA\"), creando un sistema de marca cohesionado pero con identidades propias y diferenciadas para cada estilo. El proyecto incluyó el diseño de logotipos e isologos con ilustraciones temáticas para cada variedad, la estructura gráfica de las etiquetas, selección tipográfica, mockups de presentación en botellas y empaques, buscando transmitir variedad, carácter artesanal, identidad temática y distinción en el mercado.",
+    "image": "/images/portfolio/etiqueta-cerveza-cascade-2.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Branding – Marca Andean Ice",
+    "description": "Desarrollo de identidad visual y diseño de marca para \"Andean Ice\", creando un concepto fresco, moderno y con una fuerte personalidad temática inspirada en la región andina.",
+    "fullDescription": "Desarrollo de identidad visual y diseño de marca para \"Andean Ice\", creando un concepto fresco, moderno y con una fuerte personalidad temática inspirada en la región andina. El proyecto incluyó el diseño de logotipo e isologo, la creación de un personaje corpóreo/mascota (una llama estilizada con elementos andinos y gafas de sol), aplicaciones de marca en packaging de hielo, merchandising como indumentaria y tote bags, y piezas visuales publicitarias en entornos naturales, buscando transmitir frescura, originalidad y recordación de marca.",
+    "image": "/images/portfolio/andean-ice.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Papelería Gráfica – GYC Consultores",
+    "description": "Desarrollo de papelería gráfica y material educativo ilustrado para GYC Consultores, centrado en la concientización ambiental y el cuidado del agua.",
+    "fullDescription": "Desarrollo de papelería gráfica y material educativo ilustrado para GYC Consultores, centrado en la concientización ambiental y el cuidado del agua. El proyecto incluyó el diseño de cuadernillos, cuentos infantiles (\"La Aventura de la Gotita\") con un personaje mascota amigable, hojas de actividades con preguntas para resolver y secuencias narrativas ilustradas en estilo acuarela, buscando educar a los niños y transmitir un mensaje de responsabilidad ecológica y conservación de recursos naturales.",
+    "image": "/images/portfolio/gyc-consultores.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Papelería Gráfica – Minera Volcan",
+    "description": "Desarrollo de papelería gráfica institucional y material educativo enfocado en la gestión ambiental para Minera Volcan.",
+    "fullDescription": "Desarrollo de papelería gráfica institucional y material educativo enfocado en la gestión ambiental para Minera Volcan. El proyecto incluyó el diseño de dípticos y trípticos informativos (\"Aprendiendo con Vinchosita\") con un personaje mascota tierno y representativo, guías didácticas sobre reciclaje, separación de residuos y compostaje, tablas de registro y secuencias ilustradas, buscando fomentar la conciencia ecológica y el aprendizaje comunitario de forma dinámica y cercana.",
+    "image": "/images/portfolio/minera-volcan.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Social Media – Colegios Zárate",
+    "description": "Desarrollo de estrategia gráfica y contenidos visuales para redes sociales enfocados en el sector educativo de Colegios Zárate.",
+    "fullDescription": "Desarrollo de estrategia gráfica y contenidos visuales para redes sociales enfocados en el sector educativo de Colegios Zárate. El proyecto incluyó el diseño de publicaciones para eventos institucionales, festivales, talleres deportivos y artísticos, efemérides patrias (como la Batalla de Junín), muestras tecnológicas (Robofest) y reconocimientos a logros estudiantiles, buscando fortalecer la comunicación con la comunidad escolar, el sentido de pertenencia y la difusión de la vida institucional.",
+    "image": "/images/portfolio/colegios-zarate.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Social Media – Academias Zárate",
+    "description": "Desarrollo de estrategia visual y contenidos para redes sociales orientados al sector de preparación preuniversitaria y académica de Academias Zárate.",
+    "fullDescription": "Desarrollo de estrategia visual y contenidos para redes sociales orientados al sector de preparación preuniversitaria y académica de Academias Zárate. El proyecto incluyó el diseño de piezas gráficas promocionales para ciclos de estudio (mensuales, semestrales, escolares y UNI), avisos de inicios de clases, seminarios y repasos gratuitos, soluciones de exámenes de admisión con personajes mascota caracterizados, y campañas de captación, buscando proyectar una imagen dinámica, atractiva y de alta motivación para los estudiantes.",
+    "image": "/images/portfolio/academias-zarate.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Papelería Gráfica – Minera Volcan",
+    "description": "Desarrollo de papelería gráfica educativa e institucional para Minera Volcan, enfocada en guías didácticas sobre compostaje y manejo de residuos sólidos.",
+    "fullDescription": "Desarrollo de papelería gráfica educativa e institucional para Minera Volcan, enfocada en guías didácticas sobre compostaje y manejo de residuos sólidos. El proyecto incluyó el diseño de fichas informativas, explicaciones paso a paso sobre qué es una compostera, listados de materiales (como botellas de plástico y desechos orgánicos), preguntas para analizar y resolver, y secuencias ilustradas con el personaje mascota \"Vinchosita\", buscando fomentar la educación ambiental y la sostenibilidad de manera didáctica y visualmente atractiva.",
+    "image": "/images/portfolio/minera-volcan-2.jpeg"
   }
 ]

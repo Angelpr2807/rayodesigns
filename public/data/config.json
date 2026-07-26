@@ -13,22 +13,22 @@
     "social": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com",
+        "url": "https://www.instagram.com/rayos.studio/",
         "icon": "instagram"
       },
       {
         "name": "Facebook",
-        "url": "https://facebook.com",
+        "url": "https://www.facebook.com/rayostudio.pe/",
         "icon": "facebook"
       },
       {
-        "name": "LinkedIn",
-        "url": "https://linkedin.com",
-        "icon": "linkedin"
+        "name": "Youtube",
+        "url": "https://www.youtube.com/@rayo.studio-pe",
+        "icon": "youtube"
       },
       {
         "name": "TikTok",
-        "url": "https://tiktok.com",
+        "url": "https://www.tiktok.com/@rayo_studio",
         "icon": "tiktok"
       }
     ]

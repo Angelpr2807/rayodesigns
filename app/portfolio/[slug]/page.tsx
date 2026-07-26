@@ -3,8 +3,9 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useParams, notFound } from 'next/navigation';
-import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import ImageWithFallback from '@/components/ImageWithFallback';
+import { slugify } from '@/lib/utils';
 
 interface PortfolioItem {
   id: number;
@@ -12,10 +13,6 @@ interface PortfolioItem {
   description: string;
   fullDescription: string;
   image: string;
-  tags: string[];
-  category: string;
-  url: string;
-  slug: string;
 }
 
 export default function PortfolioDetail() {
@@ -27,7 +24,7 @@ export default function PortfolioDetail() {
     fetch('/data/portfolio.json')
       .then((r) => r.json())
       .then((data: PortfolioItem[]) => {
-        const found = data.find((p) => p.slug === params.slug);
+        const found = data.find((p) => slugify(p.title) === params.slug);
         setProject(found || null);
       })
       .catch(() => setProject(null))
@@ -80,38 +77,10 @@ export default function PortfolioDetail() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2 space-y-6">
-            <div>
-              <h2 className="text-xl font-bold mb-3">Descripción del Proyecto</h2>
-              <p className="text-muted-foreground leading-relaxed">{project.fullDescription}</p>
-            </div>
-          </div>
-
-          <div className="bg-card border border-border rounded-xl p-6 h-fit sticky top-24 space-y-6">
-            <div>
-              <h3 className="font-semibold mb-3">Etiquetas</h3>
-              <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs font-medium px-2.5 py-1 rounded bg-primary/10 text-primary"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-whatsapp text-white font-semibold rounded-lg hover:scale-105 smooth-transition"
-            >
-              <ExternalLink size={18} />
-              Visitar Proyecto
-            </a>
+        <div className="max-w-3xl space-y-6">
+          <div>
+            <h2 className="text-xl font-bold mb-3">Descripción del Proyecto</h2>
+            <p className="text-muted-foreground leading-relaxed">{project.fullDescription}</p>
           </div>
         </div>
       </div>
