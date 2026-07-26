@@ -8,14 +8,14 @@ import CTASection from '@/components/CTASection';
 import { useState, useEffect } from 'react';
 
 const carruselImages = [
-  '/images/carrusel-1.jpeg',
-  '/images/carrusel-2.png',
-  '/images/carrusel-3.jpeg',
-  '/images/carrusel-4.jpeg',
-  '/images/carrusel-5.png',
-  '/images/carrusel-6.png',
-  '/images/carrusel-8.png',
-  '/images/carrusel-9.png',
+  '/images/carrusel-1.webp',
+  '/images/carrusel-2.webp',
+  '/images/carrusel-3.webp',
+  '/images/carrusel-4.webp',
+  '/images/carrusel-5.webp',
+  '/images/carrusel-6.webp',
+  '/images/carrusel-8.webp',
+  '/images/carrusel-9.webp',
 ];
 
 interface Course {
