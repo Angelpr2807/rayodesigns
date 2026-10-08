@@ -14,15 +14,12 @@ const carruselImages = [
   '/images/carrusel-4.webp',
   '/images/carrusel-5.webp',
   '/images/carrusel-6.webp',
+  '/images/carrusel-7.webp',
   '/images/carrusel-8.webp',
   '/images/carrusel-9.webp',
   '/images/carrusel-10.webp',
   '/images/carrusel-11.webp',
   '/images/carrusel-12.webp',
-  '/images/carrusel-13.webp',
-  '/images/carrusel-14.webp',
-  '/images/carrusel-15.webp',
-  '/images/carrusel-16.webp',
 ];
 
 interface Course {
