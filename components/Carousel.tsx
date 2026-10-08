@@ -189,7 +189,6 @@ export default function Carousel({
                 src={src}
                 alt={`Proyecto ${i + 1}`}
                 fill
-                draggable={false}
                 className="pointer-events-none object-cover"
                 sizes={`${100 / visibleCount}vw`}
                 fallbackType="generic"
